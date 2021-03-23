@@ -24,7 +24,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Hydrogen &mdash; A free HTML5 Template by FREEHTML5.CO</title>
+	<title>Lista de noticias</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -96,13 +96,14 @@
 	<!-- END .header -->
 	
 	<div id="fh5co-main">
-    @foreach($noticias as $noticia)
+    
 		<div class="container">
-            
+		<div class="container-fluid">
 		    <div class="row">
+            @foreach($noticias as $noticia)
+            <div id="fh5co-board" data-columns >
            
-            <div id="fh5co-board" data-columns>
-            
+			<div class="column size-1">
         	<div class="item">
            
         		<div class="animate-box">
@@ -112,10 +113,9 @@
 					<h3><a href="{{route("noticias.detalles", $noticia->id)}}">{{ $noticia->titulo }}</a></h3>
 					<p>{{ $noticia->fecha }}</p>
                     <p>{{ $noticia->autor}}</p></div>
-                   
-        </div>
-        @endforeach 
-           
+			</div>
+              @endforeach       
+			  </div>
         </div>
         </div>
        </div>

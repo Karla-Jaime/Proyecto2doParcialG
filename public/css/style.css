@@ -1404,7 +1404,7 @@ body {
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
-  background-color: #fff;
+  background-color: rgb(0, 10, 56)ff;
 }
 
 input,
@@ -1417,11 +1417,11 @@ textarea {
 }
 
 a {
-  color: #EF5353;
+  color: #163791;
   text-decoration: none;
 }
 a:hover, a:focus {
-  color: #e11515;
+  color: #003983;
   text-decoration: underline;
 }
 a:focus {
@@ -1692,7 +1692,7 @@ a.text-danger:focus {
 }
 
 .bg-primary {
-  color: #fff;
+  color: rgb(157, 170, 228);
 }
 
 .bg-primary {
@@ -3086,7 +3086,7 @@ legend {
   line-height: inherit;
   color: #333333;
   border: 0;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #aebdcc;
 }
 
 label {
@@ -5212,7 +5212,7 @@ tbody.collapse.in {
   line-height: 1.42857;
   text-decoration: none;
   color: #EF5353;
-  background-color: #fff;
+  background-color: #aebdcc;
   border: 1px solid #ddd;
   margin-left: -1px;
 }
@@ -7333,7 +7333,7 @@ body {
   font-size: 15px;
   line-height: 26px;
   color: #818892;
-  background: #f5f6f7;
+  background: #082947;
 }
 
 a {
@@ -7591,9 +7591,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Montserrat", arial, sans-serif;
-  color: #000;
+  color: #98bbd4;
 }
 #fh5co-header .navbar-brand:hover {
   color: #404040;
@@ -7683,7 +7683,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-board .item {
   margin: 10px 10px 20px 10px;
-  background: #fff;
+  background: #e0f0ff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
